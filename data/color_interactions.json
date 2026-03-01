@@ -1,0 +1,134 @@
+{
+  "colors": {
+    "black": {
+      "value": 0.0,
+      "saturation_read": "absorbs-all-detail",
+      "volume_effect": "contracts-perceived-volume",
+      "shadow_behavior": "shadows-invisible-merge-with-surface",
+      "highlight_behavior": "highlights-define-all-form-and-fold",
+      "mood": ["powerful", "slimming", "dramatic", "formal", "mysterious"],
+      "fabric_interactions": {
+        "high_sheen": "extreme-contrast-between-highlight-and-absorption",
+        "matte": "monolithic-absorbing-mass",
+        "transparent": "darkened-veil-body-visible-as-shadow"
+      }
+    },
+    "white": {
+      "value": 1.0,
+      "saturation_read": "reflects-all-light",
+      "volume_effect": "expands-perceived-volume",
+      "shadow_behavior": "shadows-become-color-information-blue-lavender-warm-gray",
+      "highlight_behavior": "highlights-wash-out-lose-detail",
+      "mood": ["pure", "bridal", "clinical", "fresh", "expansive"],
+      "fabric_interactions": {
+        "high_sheen": "blinding-specular-points",
+        "matte": "soft-luminous-surface",
+        "transparent": "luminous-glow-body-visible-through-light"
+      }
+    },
+    "red": {
+      "value": 0.45,
+      "saturation_read": "maximum-visual-impact-advances-forward",
+      "volume_effect": "expands-draws-attention",
+      "shadow_behavior": "shadows-shift-to-crimson-then-dark-wine",
+      "highlight_behavior": "highlights-shift-orange-or-pink",
+      "mood": ["passionate", "powerful", "danger", "glamour", "valentino"],
+      "fabric_interactions": {
+        "high_sheen": "vivid-hot-reflections",
+        "matte": "rich-deep-warm-mass",
+        "transparent": "stained-glass-effect-light-through-red"
+      }
+    },
+    "navy": {
+      "value": 0.15,
+      "saturation_read": "deep-professional-receding",
+      "volume_effect": "slightly-contracts",
+      "shadow_behavior": "shadows-go-near-black-quickly",
+      "highlight_behavior": "highlights-reveal-blue-undertone",
+      "mood": ["professional", "nautical", "classic", "trustworthy", "evening"],
+      "fabric_interactions": {
+        "high_sheen": "subtle-blue-flash-at-highlight",
+        "matte": "reads-almost-black-in-low-light",
+        "transparent": "deep-twilight-veil"
+      }
+    },
+    "blush": {
+      "value": 0.80,
+      "saturation_read": "soft-warm-skin-adjacent",
+      "volume_effect": "neutral-to-slight-expansion",
+      "shadow_behavior": "shadows-shift-to-mauve-or-dusty-rose",
+      "highlight_behavior": "highlights-approach-white-with-warmth",
+      "mood": ["romantic", "feminine", "soft", "bridal", "delicate"],
+      "fabric_interactions": {
+        "high_sheen": "pearlescent-luminous-glow",
+        "matte": "powder-soft-flat-read",
+        "transparent": "skin-tone-blending-nude-illusion"
+      }
+    },
+    "metallic_gold": {
+      "value": 0.65,
+      "saturation_read": "high-reflective-warm-metallic",
+      "volume_effect": "expands-through-light-scatter",
+      "shadow_behavior": "shadows-shift-to-bronze-then-brown",
+      "highlight_behavior": "highlights-are-white-hot-specular-points",
+      "mood": ["luxury", "celebration", "opulent", "baroque", "disco"],
+      "fabric_interactions": {
+        "high_sheen": "mirror-like-fragmented-light",
+        "matte": "antiqued-tarnished-warmth",
+        "transparent": "impossible-metallic-transparency-reads-as-mesh"
+      }
+    },
+    "deep_emerald": {
+      "value": 0.30,
+      "saturation_read": "rich-saturated-jewel-tone",
+      "volume_effect": "neutral-to-slight-contraction",
+      "shadow_behavior": "shadows-shift-to-near-black-with-green-undertone",
+      "highlight_behavior": "highlights-flash-bright-green",
+      "mood": ["regal", "nature", "jewel", "mysterious", "rich"],
+      "fabric_interactions": {
+        "high_sheen": "emerald-flash-at-highlight-points",
+        "matte": "deep-absorbing-forest-mass",
+        "transparent": "stained-glass-green-luminosity"
+      }
+    },
+    "iridescent": {
+      "value": 0.60,
+      "saturation_read": "shifts-with-angle-multi-color",
+      "volume_effect": "expands-through-complexity",
+      "shadow_behavior": "shadows-hold-one-color-while-highlights-show-another",
+      "highlight_behavior": "highlights-shift-spectrum-with-viewing-angle",
+      "mood": ["futuristic", "magical", "holographic", "editorial", "otherworldly"],
+      "fabric_interactions": {
+        "high_sheen": "maximum-color-shift-per-fold-angle",
+        "matte": "subtle-color-shift-in-directional-light",
+        "transparent": "prismatic-light-scatter"
+      }
+    },
+    "ivory": {
+      "value": 0.90,
+      "saturation_read": "warm-off-white-creamy",
+      "volume_effect": "expands-slightly-less-than-white",
+      "shadow_behavior": "shadows-warm-golden-beige",
+      "highlight_behavior": "highlights-near-white-with-warmth",
+      "mood": ["bridal", "vintage", "warm", "elegant", "classic"],
+      "fabric_interactions": {
+        "high_sheen": "warm-pearl-luminosity",
+        "matte": "creamy-soft-warmth",
+        "transparent": "warm-diffused-glow"
+      }
+    },
+    "charcoal": {
+      "value": 0.20,
+      "saturation_read": "neutral-deep-professional",
+      "volume_effect": "contracts-moderately",
+      "shadow_behavior": "shadows-approach-black",
+      "highlight_behavior": "highlights-reveal-gray-texture",
+      "mood": ["professional", "urban", "sophisticated", "modern"],
+      "fabric_interactions": {
+        "high_sheen": "gunmetal-sheen",
+        "matte": "absorbing-depth-with-texture-visible",
+        "transparent": "smoky-darkening-veil"
+      }
+    }
+  }
+}
