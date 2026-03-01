@@ -1,0 +1,853 @@
+{
+  "garments": {
+    "slip_dress": {
+      "category": "dresses",
+      "coordinates": {
+        "silhouette_volume": 0.10,
+        "structural_rigidity": 0.05,
+        "construction_complexity": 0.10,
+        "surface_activity": 0.05,
+        "hem_geometry": 0.10,
+        "exposure_ratio": 0.55,
+        "temporal_register": 0.55
+      },
+      "construction": {
+        "cut": "bias",
+        "seam_lines": ["side-seams", "bust-darts"],
+        "closure": "none-or-hidden-zip",
+        "support": "spaghetti-straps",
+        "lining": "none"
+      },
+      "fabric_behavior": {
+        "drape_character": "liquid",
+        "gravity_response": "immediate-full-conformity",
+        "motion_response": "body-echo-with-slight-delay",
+        "static_silhouette": "body-contour-with-skim",
+        "fold_pattern": "fine-parallel-verticals"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "body-contour",
+        "negative_space": "minimal",
+        "width_variation": ["narrow-shoulders", "body-width-torso", "slight-flare-at-hem"],
+        "visual_weight": "light-distributed-evenly"
+      },
+      "keywords": ["minimal", "90s", "intimate", "effortless", "bias-cut", "lingerie-inspired"]
+    },
+    "a_line_dress": {
+      "category": "dresses",
+      "coordinates": {
+        "silhouette_volume": 0.35,
+        "structural_rigidity": 0.30,
+        "construction_complexity": 0.30,
+        "surface_activity": 0.15,
+        "hem_geometry": 0.15,
+        "exposure_ratio": 0.35,
+        "temporal_register": 0.45
+      },
+      "construction": {
+        "cut": "fitted-bodice-flared-skirt",
+        "seam_lines": ["princess-seams", "waist-seam", "side-seams"],
+        "closure": "back-zip",
+        "support": "structured-bodice",
+        "lining": "partial-or-full"
+      },
+      "fabric_behavior": {
+        "drape_character": "controlled-flare",
+        "gravity_response": "holds-cone-shape-with-soft-fall",
+        "motion_response": "swings-from-waist-pivot",
+        "static_silhouette": "triangle-from-waist-down",
+        "fold_pattern": "radial-from-waist"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "fitted-triangle",
+        "negative_space": "increasing-with-movement",
+        "width_variation": ["shoulder-width-top", "progressive-expansion-to-hem"],
+        "visual_weight": "concentrated-at-hem-circumference"
+      },
+      "keywords": ["classic", "feminine", "balanced", "flattering", "commercial", "ladylike"]
+    },
+    "ball_gown": {
+      "category": "dresses",
+      "coordinates": {
+        "silhouette_volume": 0.95,
+        "structural_rigidity": 0.70,
+        "construction_complexity": 0.85,
+        "surface_activity": 0.45,
+        "hem_geometry": 0.40,
+        "exposure_ratio": 0.30,
+        "temporal_register": 0.35
+      },
+      "construction": {
+        "cut": "corseted-bodice-full-skirt",
+        "seam_lines": ["boned-bodice-panels", "waist-seam", "skirt-panels"],
+        "closure": "back-lace-or-zip",
+        "support": "boning, petticoat, crinoline",
+        "structural_elements": ["boning", "petticoat", "horsehair-hem", "crinoline"]
+      },
+      "fabric_behavior": {
+        "drape_character": "architectural-volume",
+        "gravity_response": "resists-gravity-maintains-dome",
+        "motion_response": "slow-pendulum-sway-with-inertia",
+        "static_silhouette": "hemisphere-from-waist",
+        "fold_pattern": "deep-sculptural-folds-between-support-points"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "hourglass-dome",
+        "negative_space": "large-dome-interior",
+        "width_variation": ["narrow-corseted-waist", "maximum-expansion-at-hip-to-floor"],
+        "visual_weight": "massive-concentration-at-skirt-volume"
+      },
+      "keywords": ["dramatic", "formal", "cinderella", "volume", "event", "couture", "princess"]
+    },
+    "column_gown": {
+      "category": "dresses",
+      "coordinates": {
+        "silhouette_volume": 0.15,
+        "structural_rigidity": 0.25,
+        "construction_complexity": 0.35,
+        "surface_activity": 0.10,
+        "hem_geometry": 0.20,
+        "exposure_ratio": 0.30,
+        "temporal_register": 0.45
+      },
+      "construction": {
+        "cut": "straight-grain-body-skimming",
+        "seam_lines": ["center-back", "side-seams", "bust-darts"],
+        "closure": "back-zip-or-side-zip",
+        "support": "built-in-bra-or-boning"
+      },
+      "fabric_behavior": {
+        "drape_character": "vertical-fall",
+        "gravity_response": "straight-pull-with-body-interruptions",
+        "motion_response": "sways-from-knee-down-only",
+        "static_silhouette": "cylinder-with-body-contour",
+        "fold_pattern": "long-vertical-channels"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "elongated-rectangle",
+        "negative_space": "minimal-at-ankles",
+        "width_variation": ["consistent-shoulder-to-floor"],
+        "visual_weight": "evenly-distributed-vertically"
+      },
+      "keywords": ["statuesque", "grecian", "elongating", "red-carpet", "minimal", "elegant"]
+    },
+    "gown_with_train": {
+      "category": "dresses",
+      "coordinates": {
+        "silhouette_volume": 0.75,
+        "structural_rigidity": 0.55,
+        "construction_complexity": 0.80,
+        "surface_activity": 0.40,
+        "hem_geometry": 0.90,
+        "exposure_ratio": 0.30,
+        "temporal_register": 0.30
+      },
+      "construction": {
+        "cut": "fitted-bodice-extended-back-skirt",
+        "seam_lines": ["bodice-panels", "waist", "train-attachment"],
+        "closure": "back-buttons-or-lace",
+        "support": "boning, bustle-structure",
+        "structural_elements": ["train-support", "bustle", "underskirt"]
+      },
+      "fabric_behavior": {
+        "drape_character": "front-controlled-back-pooling",
+        "gravity_response": "front-falls-clean, back-extends-and-pools",
+        "motion_response": "train-follows-with-heavy-delay",
+        "static_silhouette": "front-fitted, back-expanding-floor-spread",
+        "fold_pattern": "train-creates-river-of-fabric-on-floor"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "asymmetric-front-vs-back",
+        "negative_space": "large-behind-figure",
+        "width_variation": ["narrow-front", "expanding-floor-spread-behind"],
+        "visual_weight": "trailing-mass-behind-figure"
+      },
+      "keywords": ["bridal", "ceremonial", "regal", "dramatic-back", "processional", "cathedral"]
+    },
+    "wrap_dress": {
+      "category": "dresses",
+      "coordinates": {
+        "silhouette_volume": 0.25,
+        "structural_rigidity": 0.20,
+        "construction_complexity": 0.30,
+        "surface_activity": 0.10,
+        "hem_geometry": 0.20,
+        "exposure_ratio": 0.40,
+        "temporal_register": 0.50
+      },
+      "construction": {
+        "cut": "wrap-front-tied-at-waist",
+        "seam_lines": ["shoulder", "side-seams", "wrap-overlap"],
+        "closure": "self-tie-at-waist",
+        "support": "tie-creates-waist-definition"
+      },
+      "fabric_behavior": {
+        "drape_character": "body-following-with-v-neckline-cascade",
+        "gravity_response": "falls-from-shoulders, gathers-at-tie",
+        "motion_response": "skirt-swings-from-tie-point",
+        "static_silhouette": "defined-waist-with-soft-skirt",
+        "fold_pattern": "diagonal-wrap-lines-across-torso"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "hourglass-soft",
+        "negative_space": "v-neckline-opening, wrap-gap-at-leg",
+        "width_variation": ["shoulder-width", "cinched-waist", "flared-skirt"],
+        "visual_weight": "concentrated-at-waist-tie"
+      },
+      "keywords": ["dvf", "feminine", "flattering", "versatile", "70s", "wrap"]
+    },
+    "blazer": {
+      "category": "tailored",
+      "coordinates": {
+        "silhouette_volume": 0.30,
+        "structural_rigidity": 0.75,
+        "construction_complexity": 0.70,
+        "surface_activity": 0.10,
+        "hem_geometry": 0.10,
+        "exposure_ratio": 0.40,
+        "temporal_register": 0.55
+      },
+      "construction": {
+        "cut": "tailored-shoulder-nipped-waist",
+        "seam_lines": ["shoulder-seams", "princess-seams", "side-seams", "sleeve-set"],
+        "closure": "front-buttons-or-open",
+        "support": "shoulder-pads, canvas-interlining",
+        "structural_elements": ["shoulder-pads", "chest-canvas", "lapels", "collar-stand"]
+      },
+      "fabric_behavior": {
+        "drape_character": "holds-shape-independent-of-body",
+        "gravity_response": "minimal-structure-resists",
+        "motion_response": "moves-as-unit-with-body",
+        "static_silhouette": "architectural-shoulder-line-tapering-to-hip",
+        "fold_pattern": "controlled-creases-at-elbow-and-waist"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "inverted-triangle-or-hourglass",
+        "negative_space": "lapel-v-opening, sleeve-gap",
+        "width_variation": ["padded-shoulders-widest", "tapered-to-hem"],
+        "visual_weight": "concentrated-at-shoulders-and-lapels"
+      },
+      "keywords": ["power", "tailored", "structured", "professional", "sharp", "suiting"]
+    },
+    "overcoat_long": {
+      "category": "tailored",
+      "coordinates": {
+        "silhouette_volume": 0.55,
+        "structural_rigidity": 0.65,
+        "construction_complexity": 0.60,
+        "surface_activity": 0.05,
+        "hem_geometry": 0.10,
+        "exposure_ratio": 0.10,
+        "temporal_register": 0.50
+      },
+      "construction": {
+        "cut": "straight-or-fitted-full-length",
+        "seam_lines": ["shoulder", "side", "center-back", "sleeve-set"],
+        "closure": "front-buttons-double-or-single-breasted",
+        "support": "shoulder-construction, heavy-fabric-self-supporting",
+        "structural_elements": ["collar", "lapels", "belt-optional"]
+      },
+      "fabric_behavior": {
+        "drape_character": "heavy-column",
+        "gravity_response": "weighted-vertical-pull",
+        "motion_response": "slow-sway, dramatic-open-sweep-when-unbuttoned",
+        "static_silhouette": "monolithic-column",
+        "fold_pattern": "deep-vertical-folds, horizontal-crease-at-belt"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "tall-rectangle-or-slight-taper",
+        "negative_space": "minimal-when-closed, large-when-open",
+        "width_variation": ["shoulder-width-maintained-to-hem"],
+        "visual_weight": "heavy-evenly-distributed"
+      },
+      "keywords": ["commanding", "monolithic", "winter", "editorial", "cinematic", "noir"]
+    },
+    "corset": {
+      "category": "tailored",
+      "coordinates": {
+        "silhouette_volume": 0.10,
+        "structural_rigidity": 0.95,
+        "construction_complexity": 0.90,
+        "surface_activity": 0.35,
+        "hem_geometry": 0.15,
+        "exposure_ratio": 0.60,
+        "temporal_register": 0.30
+      },
+      "construction": {
+        "cut": "multi-panel-boned",
+        "seam_lines": ["6-to-12-vertical-panels"],
+        "closure": "back-lacing-or-front-busk",
+        "support": "steel-or-spiral-boning-throughout",
+        "structural_elements": ["boning-channels", "busk", "grommets", "modesty-panel"]
+      },
+      "fabric_behavior": {
+        "drape_character": "zero-drape-pure-structure",
+        "gravity_response": "none-holds-shape-empty",
+        "motion_response": "rigid-moves-with-torso-as-unit",
+        "static_silhouette": "wasp-waist-cone",
+        "fold_pattern": "no-folds-smooth-panels-between-boning"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "extreme-hourglass-torso-only",
+        "negative_space": "waist-gap-from-body",
+        "width_variation": ["bust-shelf", "extreme-narrow-waist", "hip-flare-at-bottom-edge"],
+        "visual_weight": "concentrated-at-waist-compression"
+      },
+      "keywords": ["fetish", "historical", "structured", "waist", "boudoir", "victorian", "sculptural"]
+    },
+    "tailored_suit_pants": {
+      "category": "tailored",
+      "coordinates": {
+        "silhouette_volume": 0.20,
+        "structural_rigidity": 0.55,
+        "construction_complexity": 0.55,
+        "surface_activity": 0.05,
+        "hem_geometry": 0.05,
+        "exposure_ratio": 0.15,
+        "temporal_register": 0.55
+      },
+      "construction": {
+        "cut": "tailored-straight-or-tapered",
+        "seam_lines": ["side-seam", "inseam", "waistband", "front-crease", "darts"],
+        "closure": "waistband-hook-and-zip",
+        "support": "waistband, crease-press"
+      },
+      "fabric_behavior": {
+        "drape_character": "crisp-pressed-columns",
+        "gravity_response": "sharp-vertical-with-pressed-crease",
+        "motion_response": "clean-swing-from-knee",
+        "static_silhouette": "pressed-parallel-cylinders",
+        "fold_pattern": "front-crease-dominant, minimal-other-folds"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "tapered-cylinders",
+        "negative_space": "between-legs-at-hem",
+        "width_variation": ["waist-fitted", "hip-to-knee-straight", "tapered-ankle"],
+        "visual_weight": "concentrated-at-crease-line"
+      },
+      "keywords": ["professional", "sharp", "tailored", "suiting", "power", "polished"]
+    },
+    "kaftan": {
+      "category": "flowing",
+      "coordinates": {
+        "silhouette_volume": 0.70,
+        "structural_rigidity": 0.05,
+        "construction_complexity": 0.10,
+        "surface_activity": 0.40,
+        "hem_geometry": 0.10,
+        "exposure_ratio": 0.20,
+        "temporal_register": 0.25
+      },
+      "construction": {
+        "cut": "single-rectangular-panels",
+        "seam_lines": ["shoulder-fold", "side-seams-optional"],
+        "closure": "none-or-front-slit",
+        "support": "none-hangs-from-shoulders"
+      },
+      "fabric_behavior": {
+        "drape_character": "tent-fall",
+        "gravity_response": "straight-drop-from-shoulders-no-body-interruption",
+        "motion_response": "full-billow-and-float",
+        "static_silhouette": "rectangle-obscuring-body",
+        "fold_pattern": "random-soft-gathers"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "wide-rectangle",
+        "negative_space": "entire-garment-is-negative-space-around-body",
+        "width_variation": ["consistent-wide-shoulder-to-hem"],
+        "visual_weight": "light-distributed-as-surface-area"
+      },
+      "keywords": ["bohemian", "resort", "flowing", "volume", "pattern-canvas", "relaxed"]
+    },
+    "draped_toga": {
+      "category": "flowing",
+      "coordinates": {
+        "silhouette_volume": 0.50,
+        "structural_rigidity": 0.02,
+        "construction_complexity": 0.05,
+        "surface_activity": 0.05,
+        "hem_geometry": 0.45,
+        "exposure_ratio": 0.45,
+        "temporal_register": 0.05
+      },
+      "construction": {
+        "cut": "single-uncut-cloth",
+        "seam_lines": ["none-wrapped-and-pinned"],
+        "closure": "pin-or-knot-at-shoulder",
+        "support": "gravity-and-friction"
+      },
+      "fabric_behavior": {
+        "drape_character": "pure-gravity-sculpture",
+        "gravity_response": "total-fabric-finds-lowest-energy-state",
+        "motion_response": "immediate-fluid-response-to-every-movement",
+        "static_silhouette": "asymmetric-cascade",
+        "fold_pattern": "catenary-curves-between-anchor-points"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "asymmetric-diagonal",
+        "negative_space": "one-shoulder-exposed, cascading-folds",
+        "width_variation": ["narrow-at-pin-point", "expanding-cascade-to-hem"],
+        "visual_weight": "concentrated-at-lowest-drape-point"
+      },
+      "keywords": ["classical", "greek", "sculptural", "drape", "ancient", "goddess", "marble"]
+    },
+    "cape": {
+      "category": "flowing",
+      "coordinates": {
+        "silhouette_volume": 0.80,
+        "structural_rigidity": 0.15,
+        "construction_complexity": 0.15,
+        "surface_activity": 0.10,
+        "hem_geometry": 0.35,
+        "exposure_ratio": 0.15,
+        "temporal_register": 0.35
+      },
+      "construction": {
+        "cut": "circular-or-semi-circular",
+        "seam_lines": ["center-front-opening", "neck-attachment"],
+        "closure": "clasp-or-button-at-neck",
+        "support": "neck-and-shoulders",
+        "structural_elements": ["hood-optional", "arm-slits-optional"]
+      },
+      "fabric_behavior": {
+        "drape_character": "radial-tent",
+        "gravity_response": "cone-fall-from-shoulders",
+        "motion_response": "dramatic-sweep-and-billow, wind-catch",
+        "static_silhouette": "bell-from-shoulders",
+        "fold_pattern": "radial-folds-from-neck-point"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "cone-bell",
+        "negative_space": "entire-body-hidden",
+        "width_variation": ["neck-point-narrow", "maximum-expansion-at-hem-circumference"],
+        "visual_weight": "heavy-at-hem-sweep"
+      },
+      "keywords": ["dramatic", "mysterious", "heroic", "editorial", "gothic", "romantic", "sweep"]
+    },
+    "sarong": {
+      "category": "flowing",
+      "coordinates": {
+        "silhouette_volume": 0.30,
+        "structural_rigidity": 0.02,
+        "construction_complexity": 0.02,
+        "surface_activity": 0.30,
+        "hem_geometry": 0.30,
+        "exposure_ratio": 0.55,
+        "temporal_register": 0.15
+      },
+      "construction": {
+        "cut": "single-rectangular-cloth-wrapped",
+        "seam_lines": ["none"],
+        "closure": "tuck-or-knot",
+        "support": "friction-and-knot"
+      },
+      "fabric_behavior": {
+        "drape_character": "wrap-cling-with-asymmetric-fall",
+        "gravity_response": "falls-from-knot-point",
+        "motion_response": "opens-with-stride, reveals-leg",
+        "static_silhouette": "wrap-with-drape-slit",
+        "fold_pattern": "gathered-at-knot, cascading-below"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "asymmetric-wrap",
+        "negative_space": "leg-opening-slit",
+        "width_variation": ["gathered-at-waist", "falls-to-ankle-or-knee"],
+        "visual_weight": "concentrated-at-knot-and-hem"
+      },
+      "keywords": ["tropical", "resort", "casual", "beach", "wrapped", "effortless"]
+    },
+    "fitted_shirt": {
+      "category": "tops",
+      "coordinates": {
+        "silhouette_volume": 0.10,
+        "structural_rigidity": 0.35,
+        "construction_complexity": 0.40,
+        "surface_activity": 0.10,
+        "hem_geometry": 0.05,
+        "exposure_ratio": 0.35,
+        "temporal_register": 0.55
+      },
+      "construction": {
+        "cut": "darted-body-set-in-sleeve",
+        "seam_lines": ["shoulder", "side", "sleeve-set", "collar-stand", "button-placket"],
+        "closure": "front-buttons",
+        "support": "collar-interlining",
+        "structural_elements": ["collar", "cuffs", "placket"]
+      },
+      "fabric_behavior": {
+        "drape_character": "body-following-with-structure",
+        "gravity_response": "moderate-follows-torso-contour",
+        "motion_response": "moves-with-body, slight-pull-at-buttons",
+        "static_silhouette": "body-contour-with-collar-frame",
+        "fold_pattern": "horizontal-tension-lines-between-buttons"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "torso-contour-with-collar-architecture",
+        "negative_space": "collar-v-opening",
+        "width_variation": ["shoulder-width", "tapered-to-waist"],
+        "visual_weight": "concentrated-at-collar-and-button-line"
+      },
+      "keywords": ["classic", "polished", "versatile", "crisp", "professional"]
+    },
+    "oversized_knit": {
+      "category": "tops",
+      "coordinates": {
+        "silhouette_volume": 0.55,
+        "structural_rigidity": 0.20,
+        "construction_complexity": 0.25,
+        "surface_activity": 0.30,
+        "hem_geometry": 0.05,
+        "exposure_ratio": 0.20,
+        "temporal_register": 0.55
+      },
+      "construction": {
+        "cut": "dropped-shoulder-relaxed-body",
+        "seam_lines": ["shoulder-drop", "side", "sleeve"],
+        "closure": "none-pullover",
+        "support": "ribbed-neckline-and-cuffs",
+        "structural_elements": ["rib-trim"]
+      },
+      "fabric_behavior": {
+        "drape_character": "soft-collapse",
+        "gravity_response": "sags-and-pools-at-hem-and-cuffs",
+        "motion_response": "slow-heavy-sway",
+        "static_silhouette": "soft-rectangle-obscuring-body",
+        "fold_pattern": "chunky-horizontal-rolls, knit-texture-visible"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "soft-boxy-rectangle",
+        "negative_space": "sleeve-sag-below-wrist, hem-gap-above-pants",
+        "width_variation": ["dropped-shoulder-widest", "straight-fall"],
+        "visual_weight": "distributed-as-mass"
+      },
+      "keywords": ["cozy", "casual", "hygge", "street-style", "volume", "texture"]
+    },
+    "crop_top": {
+      "category": "tops",
+      "coordinates": {
+        "silhouette_volume": 0.05,
+        "structural_rigidity": 0.15,
+        "construction_complexity": 0.15,
+        "surface_activity": 0.10,
+        "hem_geometry": 0.05,
+        "exposure_ratio": 0.70,
+        "temporal_register": 0.60
+      },
+      "construction": {
+        "cut": "fitted-or-boxy-ending-above-waist",
+        "seam_lines": ["shoulder", "side"],
+        "closure": "pullover-or-back-zip",
+        "support": "minimal"
+      },
+      "fabric_behavior": {
+        "drape_character": "minimal-small-area",
+        "gravity_response": "clings-or-sits-above-waist",
+        "motion_response": "moves-with-body, reveals-midriff",
+        "static_silhouette": "abbreviated-torso-cover",
+        "fold_pattern": "minimal"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "abbreviated-rectangle-or-body-contour",
+        "negative_space": "exposed-midriff-below",
+        "width_variation": ["shoulder-to-ribcage-only"],
+        "visual_weight": "minimal-concentrated-upward"
+      },
+      "keywords": ["youthful", "sporty", "90s", "midriff", "casual", "summer"]
+    },
+    "wide_leg_pants": {
+      "category": "bottoms",
+      "coordinates": {
+        "silhouette_volume": 0.50,
+        "structural_rigidity": 0.25,
+        "construction_complexity": 0.35,
+        "surface_activity": 0.05,
+        "hem_geometry": 0.10,
+        "exposure_ratio": 0.15,
+        "temporal_register": 0.50
+      },
+      "construction": {
+        "cut": "high-waist-wide-straight-leg",
+        "seam_lines": ["side-seam", "inseam", "waistband", "front-crease"],
+        "closure": "waistband-zip-or-button",
+        "support": "waistband",
+        "structural_elements": ["front-crease-line", "waistband"]
+      },
+      "fabric_behavior": {
+        "drape_character": "vertical-columns",
+        "gravity_response": "straight-fall-from-hip",
+        "motion_response": "gentle-sway-with-stride",
+        "static_silhouette": "two-parallel-columns",
+        "fold_pattern": "front-crease-plus-side-drape"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "parallel-verticals",
+        "negative_space": "between-legs, above-shoe",
+        "width_variation": ["waist-fitted", "hip-expansion", "maintained-width-to-hem"],
+        "visual_weight": "distributed-as-two-columns"
+      },
+      "keywords": ["elongating", "70s", "flowing", "palazzo", "elegant-casual"]
+    },
+    "pencil_skirt": {
+      "category": "bottoms",
+      "coordinates": {
+        "silhouette_volume": 0.08,
+        "structural_rigidity": 0.50,
+        "construction_complexity": 0.40,
+        "surface_activity": 0.05,
+        "hem_geometry": 0.05,
+        "exposure_ratio": 0.40,
+        "temporal_register": 0.50
+      },
+      "construction": {
+        "cut": "fitted-hip-to-knee",
+        "seam_lines": ["center-back-with-vent", "side-seams", "waist-darts"],
+        "closure": "back-zip",
+        "support": "waistband, lining",
+        "structural_elements": ["back-vent-or-kick-pleat"]
+      },
+      "fabric_behavior": {
+        "drape_character": "body-conforming-tube",
+        "gravity_response": "minimal-fitted-against-body",
+        "motion_response": "restricts-stride, fabric-stretches-at-knee",
+        "static_silhouette": "narrow-tapered-cylinder",
+        "fold_pattern": "horizontal-tension-lines-at-hip-and-knee"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "tapered-cylinder",
+        "negative_space": "minimal",
+        "width_variation": ["hip-width", "tapers-to-knee"],
+        "visual_weight": "concentrated-at-hip-curve"
+      },
+      "keywords": ["power", "secretarial", "fitted", "50s", "hourglass", "restrictive"]
+    },
+    "mini_skirt": {
+      "category": "bottoms",
+      "coordinates": {
+        "silhouette_volume": 0.15,
+        "structural_rigidity": 0.20,
+        "construction_complexity": 0.15,
+        "surface_activity": 0.10,
+        "hem_geometry": 0.05,
+        "exposure_ratio": 0.65,
+        "temporal_register": 0.60
+      },
+      "construction": {
+        "cut": "fitted-or-a-line-above-knee",
+        "seam_lines": ["side-seams", "waist-darts-or-elastic"],
+        "closure": "side-zip-or-waistband",
+        "support": "waistband"
+      },
+      "fabric_behavior": {
+        "drape_character": "short-fall-with-body-shape",
+        "gravity_response": "minimal-due-to-short-length",
+        "motion_response": "sways-or-rides-up-with-movement",
+        "static_silhouette": "abbreviated-cylinder-or-cone",
+        "fold_pattern": "minimal-to-none"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "short-cone-or-tube",
+        "negative_space": "legs-fully-exposed-below",
+        "width_variation": ["waist-to-mid-thigh-only"],
+        "visual_weight": "minimal-waist-focus"
+      },
+      "keywords": ["60s", "mod", "youthful", "legs", "twiggy", "party"]
+    },
+    "leather_jacket": {
+      "category": "outerwear",
+      "coordinates": {
+        "silhouette_volume": 0.25,
+        "structural_rigidity": 0.70,
+        "construction_complexity": 0.65,
+        "surface_activity": 0.30,
+        "hem_geometry": 0.10,
+        "exposure_ratio": 0.35,
+        "temporal_register": 0.60
+      },
+      "construction": {
+        "cut": "fitted-cropped",
+        "seam_lines": ["shoulder", "side", "sleeve", "yoke", "pocket-welts"],
+        "closure": "asymmetric-zip",
+        "support": "leather-weight-self-supporting",
+        "structural_elements": ["collar-or-lapels", "epaulettes", "zip-hardware", "snap-pockets"]
+      },
+      "fabric_behavior": {
+        "drape_character": "stiff-sculptural",
+        "gravity_response": "holds-shape, creases-at-joints",
+        "motion_response": "creaks-and-holds-position",
+        "static_silhouette": "structured-torso-armor",
+        "fold_pattern": "deep-permanent-creases-at-elbow-and-waist"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "fitted-armor-torso",
+        "negative_space": "collar-frame, zip-line",
+        "width_variation": ["shoulder-width-maintained", "cropped-at-waist"],
+        "visual_weight": "concentrated-at-hardware-and-seam-details"
+      },
+      "keywords": ["rebel", "motorcycle", "edge", "rock", "street", "tough", "attitude"]
+    },
+    "trench_coat": {
+      "category": "outerwear",
+      "coordinates": {
+        "silhouette_volume": 0.45,
+        "structural_rigidity": 0.55,
+        "construction_complexity": 0.65,
+        "surface_activity": 0.15,
+        "hem_geometry": 0.15,
+        "exposure_ratio": 0.10,
+        "temporal_register": 0.50
+      },
+      "construction": {
+        "cut": "double-breasted-belted-knee-to-calf",
+        "seam_lines": ["raglan-or-set-sleeve", "yoke", "side", "belt-loops"],
+        "closure": "double-breasted-buttons-plus-belt",
+        "support": "structured-collar, belt-cinch",
+        "structural_elements": ["storm-flap", "epaulettes", "gun-flap", "belt-with-d-rings"]
+      },
+      "fabric_behavior": {
+        "drape_character": "structured-with-belt-waist-drama",
+        "gravity_response": "falls-from-shoulders, cinches-at-belt, flares-below",
+        "motion_response": "skirt-swings-dramatically-when-walking",
+        "static_silhouette": "hourglass-from-belt, wide-collar-frame",
+        "fold_pattern": "deep-folds-below-belt, lapel-geometry"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "cinched-hourglass-with-flared-skirt",
+        "negative_space": "belt-waist-gap, collar-v-frame",
+        "width_variation": ["wide-collar", "cinched-waist", "flared-below-belt"],
+        "visual_weight": "concentrated-at-belt-and-collar"
+      },
+      "keywords": ["noir", "detective", "cinematic", "classic", "rain", "burberry", "espionage"]
+    },
+    "puffer_jacket": {
+      "category": "outerwear",
+      "coordinates": {
+        "silhouette_volume": 0.65,
+        "structural_rigidity": 0.45,
+        "construction_complexity": 0.40,
+        "surface_activity": 0.15,
+        "hem_geometry": 0.05,
+        "exposure_ratio": 0.15,
+        "temporal_register": 0.65
+      },
+      "construction": {
+        "cut": "quilted-baffled-panels",
+        "seam_lines": ["horizontal-baffle-quilting", "shoulder", "side"],
+        "closure": "front-zip",
+        "support": "insulation-fills-creating-volume"
+      },
+      "fabric_behavior": {
+        "drape_character": "inflated-pillow-segments",
+        "gravity_response": "maintains-puffed-volume",
+        "motion_response": "bouncy-compressed-then-springs-back",
+        "static_silhouette": "segmented-cloud",
+        "fold_pattern": "quilting-channels-create-rhythmic-surface"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "enlarged-rounded-torso",
+        "negative_space": "minimal-volume-fills-space",
+        "width_variation": ["inflated-uniform-expansion"],
+        "visual_weight": "distributed-evenly-as-volume"
+      },
+      "keywords": ["street", "utilitarian", "winter", "balenciaga", "oversized", "cozy"]
+    },
+    "deconstructed_blazer": {
+      "category": "avant_garde",
+      "coordinates": {
+        "silhouette_volume": 0.40,
+        "structural_rigidity": 0.40,
+        "construction_complexity": 0.80,
+        "surface_activity": 0.25,
+        "hem_geometry": 0.60,
+        "exposure_ratio": 0.50,
+        "temporal_register": 0.85
+      },
+      "construction": {
+        "cut": "deliberately-disrupted-tailoring",
+        "seam_lines": ["exposed-seams", "raw-edges", "asymmetric-panels"],
+        "closure": "missing-or-unconventional",
+        "support": "partial-intentionally-collapsing",
+        "structural_elements": ["visible-construction", "exposed-lining", "absent-shoulder"]
+      },
+      "fabric_behavior": {
+        "drape_character": "conflicted-structure-vs-collapse",
+        "gravity_response": "partially-holds, partially-falls-away",
+        "motion_response": "unpredictable-mixed-rigidity",
+        "static_silhouette": "asymmetric-disrupted",
+        "fold_pattern": "tension-between-structured-and-unstructured-zones"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "broken-expected-form",
+        "negative_space": "exposed-body-where-structure-removed",
+        "width_variation": ["unpredictable-asymmetric"],
+        "visual_weight": "concentrated-at-disruption-points"
+      },
+      "keywords": ["comme-des-garcons", "margiela", "deconstructed", "meta", "intellectual", "avant-garde"]
+    },
+    "sculptural_volume": {
+      "category": "avant_garde",
+      "coordinates": {
+        "silhouette_volume": 0.90,
+        "structural_rigidity": 0.80,
+        "construction_complexity": 0.90,
+        "surface_activity": 0.15,
+        "hem_geometry": 0.70,
+        "exposure_ratio": 0.20,
+        "temporal_register": 0.90
+      },
+      "construction": {
+        "cut": "three-dimensional-form",
+        "seam_lines": ["complex-paneling-creating-3d-shapes"],
+        "closure": "hidden-or-structural",
+        "support": "internal-armature, foam, wire",
+        "structural_elements": ["3d-forms", "exaggerated-proportions", "impossible-shapes"]
+      },
+      "fabric_behavior": {
+        "drape_character": "overridden-by-structure",
+        "gravity_response": "structure-defies-gravity",
+        "motion_response": "minimal-shape-maintained",
+        "static_silhouette": "architectural-sculpture",
+        "fold_pattern": "none-smooth-panels-over-structure"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "non-body-form",
+        "negative_space": "large-structured-voids",
+        "width_variation": ["determined-by-sculptural-intent-not-body"],
+        "visual_weight": "concentrated-at-sculptural-peak"
+      },
+      "keywords": ["balenciaga", "iris-van-herpen", "wearable-art", "sculptural", "museum", "runway-only"]
+    },
+    "sheer_overlay": {
+      "category": "avant_garde",
+      "coordinates": {
+        "silhouette_volume": 0.20,
+        "structural_rigidity": 0.05,
+        "construction_complexity": 0.30,
+        "surface_activity": 0.50,
+        "hem_geometry": 0.25,
+        "exposure_ratio": 0.75,
+        "temporal_register": 0.65
+      },
+      "construction": {
+        "cut": "varies-overlay-on-minimal-base",
+        "seam_lines": ["delicate-seams", "applique-attachment"],
+        "closure": "varies",
+        "support": "minimal-base-garment",
+        "structural_elements": ["embroidery-or-beading-as-structure"]
+      },
+      "fabric_behavior": {
+        "drape_character": "ghost-layer-over-body",
+        "gravity_response": "floats-with-minimal-weight",
+        "motion_response": "delayed-ethereal-float",
+        "static_silhouette": "body-visible-through-fabric-veil",
+        "fold_pattern": "fine-transparent-ripples"
+      },
+      "silhouette_geometry": {
+        "primary_outline": "body-contour-with-soft-halo",
+        "negative_space": "visual-negative-space-through-transparency",
+        "width_variation": ["body-width-plus-fabric-float"],
+        "visual_weight": "distributed-at-opacity-zones"
+      },
+      "keywords": ["ethereal", "illusion", "naked-dress", "romantic", "celestial", "valentino"]
+    }
+  }
+}

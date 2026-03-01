@@ -1,0 +1,85 @@
+{
+  "forms": {
+    "standing_mannequin": {
+      "body_present": true,
+      "articulation": "static-upright",
+      "gravity_anchor": "feet-on-ground",
+      "surface_interaction": "smooth-body-contour-contact",
+      "support_points": ["shoulders", "bust", "waist", "hips", "legs"],
+      "drape_behavior": "garment-conforms-to-body-shape-then-falls",
+      "typical_use": "retail-display, fashion-photography"
+    },
+    "dress_form": {
+      "body_present": true,
+      "articulation": "static-torso-only",
+      "gravity_anchor": "stand-base",
+      "surface_interaction": "padded-torso-shape-no-limbs",
+      "support_points": ["shoulders", "bust", "waist"],
+      "drape_behavior": "garment-falls-freely-below-waist, no-leg-interruption",
+      "typical_use": "dressmaking, studio-display"
+    },
+    "hanger": {
+      "body_present": false,
+      "articulation": "none",
+      "gravity_anchor": "suspended-from-hook",
+      "surface_interaction": "shoulder-points-only",
+      "support_points": ["two-shoulder-points"],
+      "drape_behavior": "straight-gravity-fall-from-two-points, no-body-shape",
+      "typical_use": "retail, editorial-still-life"
+    },
+    "flat_lay": {
+      "body_present": false,
+      "articulation": "none",
+      "gravity_anchor": "flat-surface-below",
+      "surface_interaction": "full-back-contact-with-surface",
+      "support_points": ["entire-back-surface"],
+      "drape_behavior": "garment-spreads-flat, volume-compressed, construction-visible",
+      "typical_use": "e-commerce, instagram-styling, technical-photography"
+    },
+    "draped_on_chair": {
+      "body_present": false,
+      "articulation": "none",
+      "gravity_anchor": "chair-back-and-seat",
+      "surface_interaction": "draped-over-hard-edge",
+      "support_points": ["chair-back-edge", "seat-surface"],
+      "drape_behavior": "cascading-from-contact-edge, pooling-below",
+      "typical_use": "editorial-still-life, interior-styling"
+    },
+    "pooled_on_floor": {
+      "body_present": false,
+      "articulation": "none",
+      "gravity_anchor": "floor-contact",
+      "surface_interaction": "full-collapse-on-flat-surface",
+      "support_points": ["floor-everywhere"],
+      "drape_behavior": "zero-structure-fabric-finds-minimum-energy, puddle-form",
+      "typical_use": "editorial-art-direction, intimate-detail-shots"
+    },
+    "wind_blown": {
+      "body_present": false,
+      "articulation": "none",
+      "gravity_anchor": "single-anchor-point",
+      "surface_interaction": "fabric-in-air",
+      "support_points": ["single-held-point-or-clothesline"],
+      "drape_behavior": "wind-overrides-gravity, fabric-billows-and-snaps",
+      "typical_use": "editorial-movement, campaign-imagery"
+    },
+    "on_body_walking": {
+      "body_present": true,
+      "articulation": "dynamic-stride",
+      "gravity_anchor": "feet-in-motion",
+      "surface_interaction": "body-in-motion-fabric-responds-with-delay",
+      "support_points": ["shoulders", "waist", "hips", "legs-in-stride"],
+      "drape_behavior": "motion-activates-swing-billow-trail, fabric-lags-body",
+      "typical_use": "runway-photography, street-style"
+    },
+    "on_body_seated": {
+      "body_present": true,
+      "articulation": "seated-bent-at-hips-and-knees",
+      "gravity_anchor": "seat-surface-and-feet",
+      "surface_interaction": "fabric-compressed-at-hip, pools-at-feet",
+      "support_points": ["shoulders", "lap", "thighs"],
+      "drape_behavior": "gathers-at-hip-crease, falls-from-knee, pools-at-floor",
+      "typical_use": "portrait, editorial-seated"
+    }
+  }
+}

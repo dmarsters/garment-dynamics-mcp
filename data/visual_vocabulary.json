@@ -1,0 +1,56 @@
+{
+  "vocabulary": {
+    "silhouette_shapes": [
+      "body-contour", "fitted-triangle", "hourglass-dome", "elongated-rectangle",
+      "cone-bell", "wide-rectangle", "tapered-cylinder", "inverted-triangle",
+      "cinched-hourglass", "asymmetric-diagonal", "soft-boxy-rectangle",
+      "non-body-form", "broken-expected-form", "segmented-cloud"
+    ],
+    "construction_elements": [
+      "princess-seams", "side-seams", "boned-bodice-panels", "waist-seam",
+      "shoulder-seams", "sleeve-set", "collar-stand", "button-placket",
+      "front-crease-line", "yoke", "raglan-sleeve", "center-back-seam",
+      "exposed-seams", "raw-edges", "asymmetric-panels", "quilting-channels"
+    ],
+    "fabric_behaviors": [
+      "liquid-fall", "controlled-flare", "architectural-volume", "vertical-fall",
+      "tent-fall", "pure-gravity-sculpture", "radial-tent", "body-following",
+      "soft-collapse", "stiff-sculptural", "ghost-layer", "conflicted-structure",
+      "heavy-column", "body-conforming-tube", "inflated-segments"
+    ],
+    "fold_patterns": [
+      "fine-parallel-verticals", "radial-from-waist", "deep-sculptural-folds",
+      "long-vertical-channels", "catenary-curves-between-anchor-points",
+      "radial-from-neck-point", "horizontal-tension-lines", "crisp-angular-creases",
+      "chunky-horizontal-rolls", "deep-permanent-creases", "fine-transparent-ripples",
+      "random-soft-gathers", "quilting-channel-rhythm"
+    ],
+    "closure_types": [
+      "hidden-zip", "back-zip", "front-buttons", "back-lace", "self-tie",
+      "asymmetric-zip", "double-breasted-buttons", "clasp-at-neck",
+      "pin-or-knot", "front-busk", "tuck-or-knot", "pullover-none"
+    ],
+    "structural_elements": [
+      "boning", "petticoat", "crinoline", "shoulder-pads", "canvas-interlining",
+      "collar", "lapels", "epaulettes", "belt-with-d-rings", "storm-flap",
+      "hood", "arm-slits", "busk", "grommets", "rib-trim", "internal-armature"
+    ],
+    "hem_shapes": [
+      "straight-horizontal", "slight-flare", "full-dome-circumference",
+      "asymmetric-high-low", "train-extending-behind", "cropped-above-waist",
+      "knee-length-straight", "floor-length-pooling", "irregular-raw-edge",
+      "curved-fishtail"
+    ],
+    "drape_descriptors": [
+      "cascading", "pooling", "billowing", "clinging", "floating",
+      "sweeping", "trailing", "gathering", "bunching", "rippling",
+      "flowing", "collapsing", "suspended", "dragging"
+    ],
+    "light_surface_terms": [
+      "specular-highlight", "diffuse-glow", "shadow-absorption",
+      "directional-pile-shift", "moire-pattern", "prismatic-scatter",
+      "matte-absorption", "satin-broad-highlight", "textural-shadow",
+      "transparent-light-pass", "metallic-fragmentation"
+    ]
+  }
+}

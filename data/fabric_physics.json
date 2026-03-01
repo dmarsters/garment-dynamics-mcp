@@ -1,0 +1,139 @@
+{
+  "fabrics": {
+    "silk_charmeuse": {
+      "weight": 0.15,
+      "drape_coefficient": 0.95,
+      "recovery": 0.10,
+      "surface": "high-sheen-one-side-matte-reverse",
+      "light_interaction": "specular-highlights, shadow-absorption",
+      "fold_character": "fine-liquid-parallel",
+      "keywords": ["luxury", "liquid", "glamour", "reflective"]
+    },
+    "cotton_poplin": {
+      "weight": 0.30,
+      "drape_coefficient": 0.40,
+      "recovery": 0.50,
+      "surface": "smooth-matte-with-subtle-texture",
+      "light_interaction": "diffuse-soft-shadows",
+      "fold_character": "crisp-angular-creases",
+      "keywords": ["crisp", "clean", "workwear", "everyday"]
+    },
+    "wool_crepe": {
+      "weight": 0.50,
+      "drape_coefficient": 0.55,
+      "recovery": 0.60,
+      "surface": "matte-pebbly-texture",
+      "light_interaction": "matte-absorption-minimal-highlight",
+      "fold_character": "soft-rounded-folds",
+      "keywords": ["professional", "matte", "sophisticated", "weight"]
+    },
+    "tulle": {
+      "weight": 0.05,
+      "drape_coefficient": 0.20,
+      "recovery": 0.80,
+      "surface": "transparent-net-texture",
+      "light_interaction": "scatters-light-through-mesh, moire-patterns",
+      "fold_character": "stiff-billowing-layers",
+      "keywords": ["bridal", "ballet", "romantic", "layers", "volume"]
+    },
+    "leather": {
+      "weight": 0.70,
+      "drape_coefficient": 0.15,
+      "recovery": 0.05,
+      "surface": "smooth-or-grained-with-sheen",
+      "light_interaction": "strong-specular-highlights, deep-shadow-in-creases",
+      "fold_character": "deep-permanent-sculptural-creases",
+      "keywords": ["tough", "sculptural", "permanent-fold", "luxury", "edge"]
+    },
+    "organza": {
+      "weight": 0.10,
+      "drape_coefficient": 0.25,
+      "recovery": 0.70,
+      "surface": "crisp-transparent-with-sheen",
+      "light_interaction": "refracts-light, crisp-shadows, luminous",
+      "fold_character": "architectural-crisp-standing-folds",
+      "keywords": ["structured-sheer", "crisp", "luminous", "couture"]
+    },
+    "jersey": {
+      "weight": 0.30,
+      "drape_coefficient": 0.80,
+      "recovery": 0.70,
+      "surface": "smooth-matte-slight-sheen",
+      "light_interaction": "smooth-gradients, body-contour-highlighting",
+      "fold_character": "clinging-stretch-with-small-gathers",
+      "keywords": ["body-conscious", "comfort", "stretch", "everyday"]
+    },
+    "denim": {
+      "weight": 0.65,
+      "drape_coefficient": 0.20,
+      "recovery": 0.15,
+      "surface": "twill-weave-visible-texture",
+      "light_interaction": "matte-textured, fade-patterns, whisker-highlights",
+      "fold_character": "stiff-angular-permanent-creases",
+      "keywords": ["casual", "workwear", "american", "rugged", "lived-in"]
+    },
+    "velvet": {
+      "weight": 0.55,
+      "drape_coefficient": 0.65,
+      "recovery": 0.30,
+      "surface": "pile-directional-light-absorption",
+      "light_interaction": "absorbs-light-deeply, directional-pile-creates-color-shift",
+      "fold_character": "heavy-sculptural-with-light-trapped-in-folds",
+      "keywords": ["rich", "luxury", "deep-color", "tactile", "renaissance", "gothic"]
+    },
+    "sequin_mesh": {
+      "weight": 0.50,
+      "drape_coefficient": 0.60,
+      "recovery": 0.20,
+      "surface": "reflective-disc-covered",
+      "light_interaction": "thousands-of-individual-specular-reflections",
+      "fold_character": "heavy-liquid-with-light-scatter",
+      "keywords": ["disco", "glamour", "night", "sparkle", "party", "reflective"]
+    },
+    "satin": {
+      "weight": 0.35,
+      "drape_coefficient": 0.85,
+      "recovery": 0.15,
+      "surface": "high-sheen-smooth-reflective",
+      "light_interaction": "broad-specular-highlights, deep-shadow-valleys",
+      "fold_character": "liquid-flowing-with-bright-ridges",
+      "keywords": ["glamour", "bridal", "evening", "luminous", "luxury"]
+    },
+    "linen": {
+      "weight": 0.35,
+      "drape_coefficient": 0.35,
+      "recovery": 0.10,
+      "surface": "visible-weave-texture-slightly-rough",
+      "light_interaction": "diffuse-matte-with-textural-shadow",
+      "fold_character": "deep-angular-permanent-wrinkles",
+      "keywords": ["summer", "natural", "relaxed", "wrinkled", "mediterranean"]
+    },
+    "chiffon": {
+      "weight": 0.08,
+      "drape_coefficient": 0.90,
+      "recovery": 0.40,
+      "surface": "semi-transparent-matte-soft",
+      "light_interaction": "light-passes-through, soft-diffusion",
+      "fold_character": "fine-floating-ripples",
+      "keywords": ["ethereal", "romantic", "layered", "soft", "bridal"]
+    },
+    "tweed": {
+      "weight": 0.60,
+      "drape_coefficient": 0.15,
+      "recovery": 0.55,
+      "surface": "multi-color-woven-texture-visible",
+      "light_interaction": "matte-textured-multi-tonal",
+      "fold_character": "stiff-minimal-folds-holds-shape",
+      "keywords": ["chanel", "heritage", "british", "country", "textured"]
+    },
+    "neoprene": {
+      "weight": 0.55,
+      "drape_coefficient": 0.10,
+      "recovery": 0.90,
+      "surface": "smooth-matte-uniform",
+      "light_interaction": "even-matte-absorption-no-highlights",
+      "fold_character": "minimal-springs-back-to-flat",
+      "keywords": ["modern", "sporty", "sculptural", "futuristic", "structured"]
+    }
+  }
+}
